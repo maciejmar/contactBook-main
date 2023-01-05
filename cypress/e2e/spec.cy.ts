@@ -31,7 +31,7 @@ describe('template spec', () => {
   })
   it('passes_2', ()=>{
     cy.visit('https://demo.noncommerce.com');
-    //cy.title().should('NonCommerce');
+    cy.title().should('NonCommerce');
     //cy.contains('NonCommerce');
   })
 
